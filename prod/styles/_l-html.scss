@@ -1,0 +1,12 @@
+@use './h-fonts' as f ;
+@use './h-colors' as c ;
+
+html{
+    font-family: f.$font-family;
+    color: c.$c-papayaWhip;
+    background-color: c.$c-richBlack;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

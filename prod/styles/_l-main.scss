@@ -1,0 +1,28 @@
+@use './h-colors' as c ;
+@use './h-fonts' as f ;
+
+
+.main{
+    background-color: c.$c-sienna;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    height: 700px;
+    border-radius: 100px;
+}
+
+.main .tarjeta{
+    background-color: c.$c-orange;
+    width: 800px;
+    height: 600px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 8rem;
+    border-radius: 100px;
+    text-decoration: underline;
+    line-height: 30px;
+}
